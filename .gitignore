@@ -1,14 +1,5 @@
 logs
 target
-/.idea
-/.idea_modules
-/.classpath
-/.project
-/.settings
-/RUNNING_PID
-
-logs
-target
 .idea
 .idea_modules
 .classpath
@@ -26,3 +17,21 @@ generated.truststore
 .settings
 .cache-main
 .cache-tests
+=======
+*.class
+*.log
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
